@@ -23,6 +23,15 @@
         <div id="unity-build-title">My project</div>
       </div>
     </div>
+
+    <div>
+      <h1>Mars</h1>
+      <h1>Mars Canyons</h1>
+      <br>
+      <h2><a href="OlympusMons.html">Olympus Mons</a></h2>
+
+    </div>
+
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -55,12 +64,12 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Planet1.loader.js";
+      var buildUrl = "CanyonsBuild";
+      var loaderUrl = buildUrl + "/Canyons.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Planet1.data",
-        frameworkUrl: buildUrl + "/Planet1.framework.js",
-        codeUrl: buildUrl + "/Planet1.wasm",
+        dataUrl: buildUrl + "/Canyons.data",
+        frameworkUrl: buildUrl + "/Canyons.framework.js",
+        codeUrl: buildUrl + "/Canyons.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project",
@@ -117,3 +126,17 @@
     </script>
   </body>
 </html>
+
+<style>
+body {
+  background-color: black;
+
+
+}
+
+h1, h2{
+  color: aliceblue;
+}
+
+
+</style>
